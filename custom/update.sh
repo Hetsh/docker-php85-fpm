@@ -5,6 +5,6 @@
 
 
 IMG_NAME="hetsh/php85-fpm"
-GIT_VERSION="$(git describe --tags --first-parent --abbrev=0)"
+IMG_VERSION="$(git describe --tags --first-parent --abbrev=0)"
 BASE_IMAGE_VERSION_REGEX="\\d{8}-\\d+"
 MAIN_ITEM="php85-fpm"
