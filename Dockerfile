@@ -1,5 +1,5 @@
-FROM hetsh/alpine:20260805-8
-ARG LAST_UPGRADE="2026-10-18T07:48:57+02:00"
+FROM hetsh/alpine:20260805-9
+ARG LAST_UPGRADE="2026-10-21T20:52:57+02:00"
 RUN apk upgrade --no-cache && \
     apk add --no-cache \
         php85=8.5.11-r0 \
